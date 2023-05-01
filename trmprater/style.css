@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    background-color: burlywood;
+}
+
+.container {
+    border: 2px solid yellow;
+    box-sizing: border-box;
+    height: 40vh;
+    background-color: antiquewhite;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    padding: 39px;
+}
+
+.inputt {
+    border: 2px solid deepskyblue;
+    padding: 1px 19px;
+}
+
+#temp {
+    background-color: transparent;
+}
+
+#tempCal {}
+
+.sub {
+
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid darkgreen;
+    background-color: darkorange;
+    border-radius: 6px;
+    padding: 2px 16px;
+
+}
